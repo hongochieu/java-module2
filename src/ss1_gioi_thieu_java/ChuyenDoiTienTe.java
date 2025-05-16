@@ -1,4 +1,4 @@
-package ss1_tongquan_java.baitap;
+package ss1_gioi_thieu_java;
 
 import java.util.Scanner;
 
