@@ -5,23 +5,23 @@ public class XoaPhanTuKhoiMang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
+        // Bước 1: Nhập số phần tử của mảng
         System.out.print("Nhập số phần tử của mảng: ");
         int n = scanner.nextInt();
 
         int[] array = new int[n];
 
-
+        // Bước 1: Nhập giá trị cho các phần tử
         for (int i = 0; i < n; i++) {
             System.out.print("Nhập phần tử thứ " + i + ": ");
             array[i] = scanner.nextInt();
         }
 
-
+        // Bước 2: Nhập phần tử cần xóa
         System.out.print("Nhập phần tử cần xóa: ");
         int x = scanner.nextInt();
 
-        
+        // Bước 3: Tìm vị trí phần tử cần xóa (nếu có)
         int indexDel = -1;
         for (int i = 0; i < n; i++) {
             if (array[i] == x) {
