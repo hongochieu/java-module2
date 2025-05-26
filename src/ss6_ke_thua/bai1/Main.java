@@ -1,4 +1,7 @@
-package ss6_ke_thua;
+package ss6_ke_thua.bai1;
+
+import ss6_ke_thua.bai1.Circle;
+import ss6_ke_thua.bai1.Cylinder;
 
 public class Main {
     public static void main(String[] args){

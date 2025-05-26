@@ -1,6 +1,8 @@
-package ss6_ke_thua;
+package ss6_ke_thua.bai1;
 
-public class Cylinder extends Circle{
+import ss6_ke_thua.bai1.Circle;
+
+public class Cylinder extends Circle {
     private double height;
 
     public Cylinder() {
