@@ -1,4 +1,4 @@
-package ss11_dsa_stack_queue;
+package ss11_dsa_stack_queue.bai1;
 import java.util.Stack;
 public class ReverseIntArray {
     public static void main(String[] args) {
