@@ -24,4 +24,27 @@ public class VehicleRepository {
                 danhSachXeMay.removeIf(v -> v.getBienKiemSoat().equals(bienSo));
 
     }
+    public Vehicle timTheoBienSo(String bienSo) {
+        for (Car car : danhSachOto) {
+            if (car.getBienKiemSoat().equalsIgnoreCase(bienSo)) return car;
+        }
+        for (Truck truck : danhSachXeTai) {
+            if (truck.getBienKiemSoat().equalsIgnoreCase(bienSo)) return truck;
+        }
+        for (Motorbike bike : danhSachXeMay) {
+            if (bike.getBienKiemSoat().equalsIgnoreCase(bienSo)) return bike;
+        }
+        return null;
+    }
+    public List<Truck> getDanhSachXeTai() {
+        return danhSachXeTai;
+    }
+
+    public List<Car> getDanhSachOto() {
+        return danhSachOto;
+    }
+
+    public List<Motorbike> getDanhSachXeMay() {
+        return danhSachXeMay;
+    }
 }
