@@ -2,7 +2,7 @@ package ss3_mang_va_phuong_thuc_java;
 import java.util.Scanner;
 
 public class XoaPhanTuKhoiMang {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
 
         // Bước 1: Nhập số phần tử của mảng

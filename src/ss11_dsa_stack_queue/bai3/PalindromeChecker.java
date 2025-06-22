@@ -16,11 +16,11 @@ public class PalindromeChecker {
 
         while (!queue.isEmpty()) {
             if (queue.poll() != stack.pop()) {
-                return false;
+                return false; 
             }
         }
 
-        return true; 
+        return true;
     }
 
     public static void main(String[] args) {
